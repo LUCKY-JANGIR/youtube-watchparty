@@ -13,6 +13,7 @@ https://youtube-watchparty-frontend.vercel.app
 ### Backend API
 
 https://youtube-watchparty-backend-yld3.onrender.com
+ {note:There is no monitoring bot who can keep the render server live after 10min countdown}
 
 ### Health Check
 

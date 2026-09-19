@@ -4,6 +4,20 @@ A real-time YouTube Watch Party application where multiple users can join a room
 
 This project was built as a full-stack internship assignment with a focus on real-time synchronization, WebSocket communication, backend permission enforcement, and a clean collaborative viewing experience.
 
+## Live Demo
+
+### Frontend
+
+https://youtube-watchparty-frontend.vercel.app
+
+### Backend API
+
+https://youtube-watchparty-backend-yld3.onrender.com
+
+### Health Check
+
+https://youtube-watchparty-backend-yld3.onrender.com/health
+
 ## Features
 
 ### Watch Rooms
@@ -42,11 +56,11 @@ Local YouTube player events are not blindly treated as authoritative room comman
 
 ### Role-Based Access Control
 
-| Role | Permissions |
-|---|---|
-| **Host** | Play/pause, seek, change video, assign roles, remove participants, transfer Host |
-| **Moderator** | Play/pause, seek, change video, approve/reject participant requests |
-| **Participant** | Watch, chat, share links, submit playback/video requests |
+| Role            | Permissions                                                                      |
+| --------------- | -------------------------------------------------------------------------------- |
+| **Host**        | Play/pause, seek, change video, assign roles, remove participants, transfer Host |
+| **Moderator**   | Play/pause, seek, change video, approve/reject participant requests              |
+| **Participant** | Watch, chat, share links, submit playback/video requests                         |
 
 Permissions are validated on the **backend**. Hiding controls in the frontend is not treated as authorization.
 
